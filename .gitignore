@@ -1,0 +1,66 @@
+# Ignore build directories
+build/
+.vscode/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Ignore Qt Creator specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.pro.user.*
+*.creator.user.*
+*.creator.user
+*.creator.*
+*.autosave
+
+# Ignore Qt resource files
+*.qrc.dep
+*.qrc.dep.*
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Ignore Qt generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+*.qmltypes
+*.qmlproject.user
+
+# Ignore other generated files
+*.rcc
+*.idb
+*.pdb
+*.ilk
+*.log
+*.pch
+*.gch
+*.dSYM/
+*.dSYM.*
+
+# Ignore user-specific files
+*.swp
+*~
+*.user
+*.user.*
+*.local
+*.local.*
+*.DS_Store
+*.directory
